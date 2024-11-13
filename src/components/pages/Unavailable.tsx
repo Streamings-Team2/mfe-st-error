@@ -1,6 +1,7 @@
 import React from 'react'
 import ErrorPage from './ErrorsPage';
 import UnavailableImage from '../../assets/503.svg';
+import '../../index.scss';
 const Unavailable = () => {
 	const hasError = true;
 	const errorMessage = 'El servidor no puede manejar la solicitud en ese momento..';
