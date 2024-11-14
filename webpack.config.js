@@ -68,7 +68,15 @@ module.exports = (_, argv) => ({
       name: "mfe_st_error",
       filename: "remoteEntry.js",
       remotes: {'components': 'mfe_st_host@http://localhost:4200/remoteEntry.js'},
-      exposes: {'./Errors': './src/components/Errors.tsx','./ErrosPage':'./src/components/pages/ErrorsPage.tsx','./NotFound':'./src/components/pages/NotFound.tsx','./Unavailable':'./src/components/pages/Unavailable.tsx','./ErrorBoundary':'./src/components/ErrorBoundary.tsx','./BuggyComponent':'./src/components/BuggyComponent.tsx'},
+      exposes: {
+        './Errors': './src/components/Errors.tsx',
+        './ErrosPage':'./src/components/pages/ErrorsPage.tsx',
+        './NotFound':'./src/components/pages/NotFound.tsx',
+        './Unavailable':'./src/components/pages/Unavailable.tsx',
+        './ErrorBoundary':'./src/components/ErrorBoundary.tsx',
+        './BuggyComponent':'./src/components/BuggyComponent.tsx',
+        './PopupComponent':'./src/components/Popups/PopupComponent.tsx'
+      },
       shared: {
         ...deps,
         react: {
