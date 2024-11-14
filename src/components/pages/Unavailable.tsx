@@ -1,6 +1,6 @@
 import React from 'react'
 import ErrorPage from './ErrorsPage';
-import UnavailableImage from '../../assets/503.svg';
+// import UnavailableImage from '../../assets/503.svg';
 import '../../index.scss';
 const Unavailable = () => {
 	const hasError = true;
@@ -12,7 +12,7 @@ const Unavailable = () => {
 		{hasError ? (
 		  <ErrorPage
 			errorMessage={errorMessage}
-			imageComponent={<UnavailableImage/>  }
+			// imageComponent={<UnavailableImage/>  }
 			error={errorType}
 		  />
 		) : (

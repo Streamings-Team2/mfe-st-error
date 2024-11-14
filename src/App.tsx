@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './index.scss'
 // import Errors from './components/Errors'
 // import NotFound from './components/pages/NotFound'
 import Unavailable from './components/pages/Unavailable'
