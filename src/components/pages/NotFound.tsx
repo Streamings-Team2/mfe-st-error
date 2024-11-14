@@ -1,7 +1,7 @@
 import React from 'react'
 import ErrorPage from './ErrorsPage';
 import NotFoundImage from '../../assets/404.svg';
-import '../../'
+import '../../index.scss';
 const NotFound = () => {
 	const hasError = true;
 	const errorMessage = 'No se pudo cargar la información. Por favor, inténtalo de nuevo.';
