@@ -1,1 +1,1 @@
-# mfe-st-error microfront encargado de gestionar los errroes
+# mfe-st-error
